@@ -120,6 +120,14 @@ ol li {
   }
 }
 
+@media only screen and (max-width: 820px) {
+  .contact {
+    font-size: 0.9rem;
+  }
+  ul li, .experience-description, ol li, .skills, .graduation, .summary-description {
+      font-size: 1rem;
+  }
+}
 @media only screen and (max-width: 768px) {
   .name-heading {
     font-size: 1.7rem;
@@ -144,20 +152,34 @@ ol li {
     font-size: 1rem;
   }
 }
+@media only screen and (max-width: 540px) {
+  .contact {
+    font-size: 0.8rem;
+  }
 
-@media only screen and (max-width: 425px) {
+.job-heading, .college-heading {
+    font-size: 1rem;
+}
+.personal{
+  margin: 0.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}    
+
+  ul li, .experience-description, ol li, .skills, .graduation, .summary-description {
+      font-size: 0.7rem;
+  }
   .experience-section div,
   .education,
   .certificate {
     margin: 0.5rem 2rem;
   }
-  .certificate {
-    gap: 1rem;
-    margin-bottom: 2rem;
-  }
-  .personal {
-    margin: 0.5rem 4rem;
-  }
+}
+@media only screen and (max-width: 425px) {
+  .mt-3 {
+    margin-top: 2rem;
+}
   .name-heading {
     font-size: 1.3rem;
   }
@@ -171,7 +193,24 @@ ol li {
   .contact {
     font-size: 0.6rem;
   }
-
+  .experience-section div ul li, .education ul li {
+    margin: 0.5rem 1rem;
+  }
+  .summary-description {
+    margin: 0.5rem 3rem;
+}
+  .experience-section div,
+  .education,
+  .certificate {
+    margin: 0.5rem 2rem;
+  }
+  .certificate {
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .personal {
+    margin: 0.5rem 3rem;
+  }
   ul li,
   .experience-description,
   ol li,
@@ -181,15 +220,43 @@ ol li {
     font-size: 0.5rem;
   }
 }
-@media only screen and (max-width: 425px) {
-  .experience-section div ul li,
-  .education ul li {
-    margin: 0.5rem 1rem;
+@media only screen and (max-width: 375px) {
+  .name-heading {
+    font-size: 1rem;
   }
-  .personal {
-    margin: 0.5rem 3rem;
+  .contact {
+    font-size: 0.4rem;
+}
+  .resume-heading {
+    font-size: 0.8rem;
   }
-  .summary-description {
-    margin: 0.5rem 3rem;
-  }
+  .job-heading, .college-heading {
+    font-size: 0.5rem;
+}
+.personal, .summary-description {
+  margin: 0.5rem 3rem;
+}
+.experience-description {
+  margin: 0.5rem 0 0 0.8rem;
+}
+.experience-section div ul li, .education ul li {
+  margin: 0.5rem 1rem;
+}
+ul li, .experience-description, ol li, .skills, .graduation, .summary-description {
+  font-size: 0.43rem;
+}
+}
+@media only screen and (max-width: 280px) {
+  .job-heading, .college-heading {
+    font-size: 0.4444444rem;
+}
+.resume-heading {
+  font-size: 0.6rem;
+}
+  ul li, .experience-description, ol li, .skills, .graduation, .summary-description {
+    font-size: 0.3rem;
+}
+.certificate {
+  gap: 1rem;
+}
 }
