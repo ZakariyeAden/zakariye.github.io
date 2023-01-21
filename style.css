@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* *********************/
+/* Reuseable Classes   */
+/* ******************* */
+.container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+
+li a {
+  color: rgb(0, 4, 255);
+}
+.experience-section div,
+.education,
+.certificate {
+  margin: 0.5rem 4rem;
+}
+.experience-section div ul li,
+.education ul li {
+  margin: 0.5rem 2rem;
+}
+/* *************** */
+/* Summary and Personal  */
+/* *************** */
+.contact {
+  font-size: 1.5rem;
+}
+.name-heading {
+  font-size: 2.3rem;
+}
+
+.resume-heading {
+  font-size: 2rem;
+}
+.summary-description {
+  font-weight: lighter;
+  font-size: 1.6rem;
+  margin: 0.5rem 4rem;
+}
+.personal {
+  margin: 0.5rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+/* *************** */
+/* Experience  */
+/* *************** */
+ul li,
+.experience-description {
+  font-size: 1.6rem;
+}
+.skills,
+.graduation {
+  align-items: center;
+  font-size: 1.6rem;
+}
+.graduation {
+  margin-top: 0.5rem;
+}
+.experience-description {
+  margin-top: 0.5rem;
+  margin: 0.5rem 0 0 1.4rem;
+}
+.job-heading,
+.college-heading {
+  margin-top: 1rem;
+  font-size: 1.65rem;
+}
+/* *************** */
+/* Education  */
+/* *************** */
+ol li {
+  list-style: none;
+  font-size: 1.6rem;
+}
+.certificate {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  margin-bottom: 4rem;
+}
+
+/* *************** */
+/* Media Querys  */
+/* *************** */
+@media only screen and (max-width: 1024px) {
+  .name-heading {
+    font-size: 1.8rem;
+  }
+  .contact {
+    font-size: 1.4rem;
+  }
+  .resume-heading {
+    font-size: 1.7rem;
+  }
+  .job-heading,
+  .college-heading {
+    font-size: 1.3rem;
+  }
+  ul li,
+  .experience-description,
+  ol li,
+  .skills,
+  .graduation,
+  .summary-description {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .name-heading {
+    font-size: 1.7rem;
+  }
+  .contact {
+    font-size: 0.9rem;
+  }
+  .resume-heading {
+    font-size: 1.5rem;
+  }
+  .job-heading,
+  .college-heading {
+    font-size: 1.2rem;
+  }
+
+  ul li,
+  .experience-description,
+  ol li,
+  .skills,
+  .graduation,
+  .summary-description {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .experience-section div,
+  .education,
+  .certificate {
+    margin: 0.5rem 2rem;
+  }
+  .certificate {
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .personal {
+    margin: 0.5rem 4rem;
+  }
+  .name-heading {
+    font-size: 1.3rem;
+  }
+  .resume-heading {
+    font-size: 1rem;
+  }
+  .job-heading,
+  .college-heading {
+    font-size: 0.7rem;
+  }
+  .contact {
+    font-size: 0.6rem;
+  }
+
+  ul li,
+  .experience-description,
+  ol li,
+  .skills,
+  .graduation,
+  .summary-description {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .experience-section div ul li,
+  .education ul li {
+    margin: 0.5rem 1rem;
+  }
+  .personal {
+    margin: 0.5rem 3rem;
+  }
+  .summary-description {
+    margin: 0.5rem 3rem;
+  }
+}
