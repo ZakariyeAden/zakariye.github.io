@@ -177,8 +177,12 @@ ol li {
   }
 }
 @media only screen and (max-width: 425px) {
+
   .mt-3 {
     margin-top: 2rem;
+}
+.experience-description {
+  margin: 0.5rem 0 0 0.8rem;
 }
   .name-heading {
     font-size: 1.3rem;
@@ -199,6 +203,7 @@ ol li {
   .summary-description {
     margin: 0.5rem 3rem;
 }
+
   .experience-section div,
   .education,
   .certificate {
